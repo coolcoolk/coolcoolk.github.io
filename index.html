@@ -2,10 +2,93 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<title>Umwelt</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Umwelt: 움벨트</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #0a0a0a;
+    color: #f2f2f2;
+    font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Apple SD Gothic Neo", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 20px 80px;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 640px;
+  }
+  .icon {
+    width: 88px;
+    height: 88px;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+  }
+  h1 { font-size: 1.5rem; margin: 0 0 8px; font-weight: 700; }
+  p.tagline { color: #a8a8a8; font-size: 1rem; line-height: 1.6; margin: 0 0 28px; }
+  .store-link {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 999px;
+    background: #f2f2f2;
+    color: #0a0a0a;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+  .shots {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    max-width: 100%;
+    margin-top: 56px;
+    padding-bottom: 8px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .shots img {
+    height: 480px;
+    width: auto;
+    border-radius: 16px;
+    flex: 0 0 auto;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.6);
+  }
+  footer {
+    margin-top: 56px;
+    color: #555;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  footer a { color: #888; }
+  @media (max-width: 480px) {
+    .shots img { height: 320px; }
+  }
+</style>
 </head>
 <body>
-<p>Umwelt: 움벨트 - 일기 키워드 그래프</p>
-<p><a href="https://apps.apple.com/us/app/id6781695635">App Store</a></p>
+  <header>
+    <img class="icon" src="assets/icon.png" alt="Umwelt 앱 아이콘">
+    <h1>Umwelt: 움벨트 — 일기 키워드 그래프</h1>
+    <p class="tagline">일기를 쓰면, AI가 나의 세계를 그립니다.<br>인물·장소·활동·감정·사물을 자동으로 뽑아 관계망으로 키워보세요.</p>
+    <a class="store-link" href="https://apps.apple.com/us/app/id6781695635">App Store에서 다운로드</a>
+  </header>
+
+  <div class="shots">
+    <img src="assets/shot1.png" alt="움벨트 관계망 그래프 화면">
+    <img src="assets/shot2.png" alt="움벨트 일기 작성 화면">
+    <img src="assets/shot3.png" alt="움벨트 키워드 확인 화면">
+  </div>
+
+  <footer>
+    <a href="https://coolcoolk.notion.site/Umwelt-3790d2229835800cb48cda329d1ea061">개인정보처리방침</a>
+    ·
+    <a href="https://coolcoolk.notion.site/Umwelt-3be0d222983581b69d32c1927b2e4064">지원</a>
+  </footer>
 </body>
 </html>

@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["U6898SRMRD.com.moha.dogany"],
+        "components": [
+          { "/": "/dogany-pages/pair/*" }
+        ]
+      }
+    ]
+  }
+}

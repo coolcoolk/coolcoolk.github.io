@@ -5,7 +5,8 @@
         "appIDs": ["U6898SRMRD.com.moha.dogany"],
         "components": [
           { "/": "/dogany-pages/pair/*" },
-          { "/": "/dogany-pages/photos/*" }
+          { "/": "/dogany-pages/photos/*" },
+          { "/": "/dogany-pages/photos" }
         ]
       }
     ]
